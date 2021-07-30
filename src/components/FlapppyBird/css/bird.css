@@ -1,0 +1,13 @@
+#bird {
+  border-radius: 50%;
+  /* background-image:url('https://i.gifer.com/origin/7b/7bcbe2faf3646b8af124f39366e22f8d_w200.gif');
+  background-size: 100%; */
+  background-repeat: no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 250px;
+  left: 40px;
+  transform: scale(2);
+  margin-bottom: 20px;
+}

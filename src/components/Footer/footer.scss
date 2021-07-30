@@ -1,0 +1,52 @@
+.Footer{
+    min-height: 5vh;
+    color: whitesmoke;
+    background: #1E1D32;
+    font-size: 14px;
+    font-family: 'Faster One', cursive;
+    .footerContent{
+        padding: 10px 0 0 0;
+        .width-25{
+            width: 25%;
+        }
+        .ftHeader{
+            font-family: 'Faster One', cursive;
+        }
+        .fntText{
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+    hr{
+        height: 1px;
+        background-color: antiquewhite;
+        border-color: antiquewhite;
+        width: 75%;
+        margin: 10px auto;
+    }
+    .socialmedia{
+        width: max-content;
+    }
+    .link{
+        text-decoration: none;
+        margin: 0 10px;
+        color: white;
+        &:hover{
+            color: antiquewhite;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Footer{
+        hr{
+            height: 1px;
+            width: 100%;
+        }
+        .socialmedia{
+            margin: 0;
+            width: 100vw;
+        }
+    }
+}

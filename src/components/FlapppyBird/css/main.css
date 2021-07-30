@@ -1,0 +1,7 @@
+.flappy {
+  /* background-color: #263238; */
+  background: url("https://opengameart.org/sites/default/files/bg_5.png");
+  font-family: 'Noto Sans', sans-serif;
+  position: relative;
+  height: 100vh;
+}

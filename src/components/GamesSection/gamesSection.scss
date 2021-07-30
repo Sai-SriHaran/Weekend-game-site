@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap');
+$imageUrl:'https://i.pinimg.com/originals/de/34/12/de3412e3c5d2ed0b11ec8291a28a3db5.gif';
+.GamesSection{
+    background-color: rgb(21, 14, 85);
+    background-image: url($imageUrl);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: bisque;
+    font-family: 'Freckle Face', cursive;
+    .content{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 480px){
+    .content{
+        flex-direction: column;
+    }
+}

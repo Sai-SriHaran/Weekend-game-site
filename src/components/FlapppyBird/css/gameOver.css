@@ -1,0 +1,20 @@
+#gameOver {
+  font-size: 3em;
+  color: #03A9F4;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  z-index: 15;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #424242;
+  padding: 20px;
+}
+
+#gameOver button {
+  background-color: #009688;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}

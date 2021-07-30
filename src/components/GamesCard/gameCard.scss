@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap');
+
+$gameCardBorder: #FFB200;
+$playerCardBorder: #8ad157;
+
+$gameCardBorderRadius: 15px 50px 15px;
+$playerCardBorderRadius: 100px 50px 100px;
+
+
+.gameCard, .playerCard{
+    color: rgb(255, 255, 255);
+    margin: 10px 0;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+// Card Border styles
+    border-left: 5px solid $gameCardBorder;
+    border-right: 5px solid $gameCardBorder;
+    border-radius: $gameCardBorderRadius;
+    background-color: #679973;
+    &:hover{
+        cursor: pointer;
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    .name{
+        font-size: 1.6rem;
+        margin: 0;
+        text-transform: uppercase;
+        font-family: 'Freckle Face', cursive;
+    }
+    .score{
+        font-size: 1.2rem;
+        font-weight: 900;
+        margin: 0;
+        font-family: 'Indie Flower', cursive;
+    }
+    .gameLogo{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+    }
+}
+.playerCard{
+    // Card Border styles
+    border-left: 5px solid $playerCardBorder;
+    border-right: 5px solid $playerCardBorder;
+    border-radius: $playerCardBorderRadius;
+    &:hover{
+        cursor: default;
+        transform: scale(1.1);
+        transition: all .5s;
+    }
+}
+.focused{
+    background-color: #0ab532;
+    transform: scale(1.1);
+    transition: all .5s;
+}

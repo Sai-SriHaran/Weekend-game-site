@@ -1,0 +1,23 @@
+.background{
+    position: relative;
+    .logo{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        img{
+            max-height: 250px;
+            border-radius: 50%;
+        }
+    }
+    .plyBtn{
+        position: absolute;
+        top: 50%;
+        margin: auto;
+        &:hover{
+            transform: scale(1.2);
+            transition: all .5s;
+        }
+    }
+}

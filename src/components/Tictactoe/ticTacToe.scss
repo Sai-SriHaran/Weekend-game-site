@@ -1,0 +1,50 @@
+.ticTacToe{
+    text-align: center;
+    text-transform: capitalize;
+    .board {
+        border: 1rem solid #ff652f;
+        background: #ff652f;
+        width: 50%;
+        display:grid;
+        grid-template: auto auto auto / 31% 32% 32% ;
+        gap: 1rem;
+    }
+    .squares{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background: #272727;
+        border:none;
+        font-size: 3rem;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    .X {
+        color: red;
+    }
+    .O {
+        color: green;
+    }
+    .displayFlex{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    .ticTacToe{
+        .board{
+            width: 100%;
+            gap: .6rem;
+        }
+        .h3{
+            font-size: 20px!important;
+        }
+        .displayFlex{
+            display: block;
+        }
+    }
+}
